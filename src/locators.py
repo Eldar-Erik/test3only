@@ -7,3 +7,5 @@ class Locators:
     TAG_FOOTER = (By.XPATH, ".//footer//div[contains(@class, 'Footer_logo')]")
     BUTTON_PROJECT = (By.XPATH, ".//footer//button[contains(@class, 'Button_root')]")
     BUTTON_BEHANCE = (By.XPATH, ".//footer/div/div/a/span[text() = 'be']")
+    TAG_PAGE_YEAR = (By.XPATH, ".//footer/div/p[text() = '© 2014 - ']")
+    TAG_FOOTER_CREATIVE = (By.XPATH, ".//footer//span[contains(@class, 'word') and text() = 'creative']")
